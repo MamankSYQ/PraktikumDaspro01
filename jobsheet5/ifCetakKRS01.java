@@ -14,5 +14,7 @@ public class ifCetakKRS01 {
         else {
             System.out.println("Registrasi ditolak. Silahkan lunasi UKT terlebih dahulu");
         }
+        String hasilCetak = uktLunas ? "UKT Lunas - Silahkan cetak KRS dan minta tanda tangan DPA" : "UKT Belum Lunas - Tidak dapat mencetak KRS";
+        System.out.println(hasilCetak);
     }
 }
